@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap');
+
+body{
+    background-color: #b5bac9;
+    font-family: 'Besley', serif;
+}
+
+.encabezado{
+    background-color: #666f88;
+    height: 80px;
+    border-bottom: 0px  #8990a2 solid ;
+    box-shadow: 0 5px 6px#666f88;
+    position: sticky;
+    top: 0;
+}
+
+
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulol{
+    display: inline;
+    text-decoration: none;
+    color :#000000;
+    font-size: 30px;
+    font-family: 'Besley', serif;
+    text-shadow: 4px 3px 3px #a3a8b7;
+    margin-left:20px;
+    margin-top: 10px;
+}
+
+.link_nav{
+    list-style: none;
+    color :#000000;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Besley', serif;
+
+}
+
+.lista_menu{
+    float: right;
+    margin-top: 20px;
+    margin-left: 460px;
+}
+
+.objeto{
+    display: inline;
+    margin-left: 20px;
+}
+
+.objeto:hover {
+    color: #a7bfc7;
+}
+
+
+
+
+
+
+.login-box {
+    margin-top: 100px;
+    width: 320px;
+    height: 620px;
+    background: rgba(14, 7, 7, 0.452);
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+
+.login-box h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #8990a2;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #2770f898;
+    color: #000;
+}
+
+
+
+.login-box a:hover {
+    color: #fff;
+}
+
